@@ -1,9 +1,9 @@
-const express = require("express");
-const { homepage } = require("../controllers/indexController");
-const router = express.Router();
+// const express = require("express");
+// const { homepage } = require("../controllers/indexController");
+// const router = express.Router();
 
 
-router.get("/", homepage)
+// router.get("/", homepage)
 
-module.exports = router;
+// module.exports = router;
 
