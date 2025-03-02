@@ -31,6 +31,6 @@ app.get("/", (req, res) => {
 
 
 })
-
+// server running status
 app.listen(process.env.PORT, 
     console.log(`Server running on ${process.env.PORT}`))
