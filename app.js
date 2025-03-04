@@ -25,6 +25,9 @@ require("dotenv").config({path : "./.env"})
 const logger = require("morgan")
 
 const app = express();
+
+// Logger
+
 app.use(logger("tiny"))
 app.get("/", (req, res) => {
     res.send("Hello dosto");
